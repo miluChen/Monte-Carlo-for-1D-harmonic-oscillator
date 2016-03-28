@@ -1,6 +1,6 @@
 # Monte-Carlo-for-1D-harmonic-osillator
 
-# Goal: Write a  Monte Carlo program for a classical 1D harmonic oscillator, perform simulations at different temperatures and compare the resulting probabillity distribution with analytical results.
+Goal: Write a  Monte Carlo program for a classical 1D harmonic oscillator, perform simulations at different temperatures and compare the resulting probabillity distribution with analytical results.
 
 Introduction of Monte Carlo method:
 
