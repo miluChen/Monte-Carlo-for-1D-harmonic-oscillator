@@ -1,4 +1,5 @@
 function code_mc(Temperatures)
+% The input could be the format of T(100:20:300);
 
 fig = figure();
 hold on;
