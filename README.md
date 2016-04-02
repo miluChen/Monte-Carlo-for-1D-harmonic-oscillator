@@ -9,6 +9,7 @@ Monte Carlo methods are a broad class of computational algorithms that rely on r
 Monte Carlo simulations sample from a probability distribution for each variable to produce hundres or thousands of possible outcomes. The results are analyzed to get probabilities of different outcomes occurring.
 
 Pseudocode for Metropolis:
+
 	For i = 0, 1, 2,..., given X0:
 		1. Generate Xi+1 from Xi by a perturbation technique that satisfies detailed balance.
 		2. Compute E(Xi+1) - E(Xi).
