@@ -7,7 +7,7 @@ analytical.jpg is the resulting image, using temperatures from 100K to 300K with
 code_mc.m is used to generate the probability distribution from Monte Carlo simulations. Metropolis algorithm is used.
 mc_simu.jpb is the image from Monte Carlo simulations, varing temperature from 100K to 300K with interval 20K.
 
-Pseudocode for Metropolis:
+Pseudocode for Metropolis (used in Monte Carlo simulation):
 
 	For i = 0, 1, 2,..., given X0:
 		1. Generate Xi+1 from Xi by a perturbation technique that satisfies detailed balance.
