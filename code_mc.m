@@ -21,11 +21,11 @@ for k = 1:size(Temperatures,2);
     
     for i = 2:iteration;
         newx = rand*interval*2 - interval;
-        if abs(newx) >= abs(x(i-1));
+        if abs(newx) <= abs(x(i-1));
             x(i) = newx;
         else
             deltaE = 1/2*(newx^2 - x(i-1)^2);
-            p = exp(beta*deltaE);
+            p = exp(-beta*deltaE);
             temp = rand;
             if p > temp;
                 x(i) = newx;
